@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LeituraArquivoTxt {
     public static void main(String[] args){
         try{
-            File arquivo = new File("C:/Users/clayt/OneDrive/Imagens/psd/Poema.txt");
+            File arquivo = new File("src/Test/Poema.txt");
             Scanner scanner = new Scanner(arquivo);
             while (scanner.hasNextLine()){
                 String linha = scanner.nextLine();
